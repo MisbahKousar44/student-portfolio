@@ -207,8 +207,26 @@ textarea:focus-visible {
     outline-offset: 3px;
 }
 
+/* Improved mobile layout */
 
+@media (max-width: 375px) {
+    header h1 {
+        font-size: 24px;
+    }
 
+    .profile {
+        width: 130px;
+        height: 130px;
+    }
+
+    p {
+        overflow-wrap: anywhere;
+    }
+
+    nav a {
+        padding: 8px;
+    }
+}
 
 
 
