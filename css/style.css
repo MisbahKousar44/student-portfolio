@@ -197,3 +197,18 @@ footer {
         height: 200px;
     }
 }
+/* Keyboard accessibility */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #8965ac;
+    outline-offset: 3px;
+}
+
+
+
+
+
+
